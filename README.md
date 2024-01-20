@@ -1,6 +1,6 @@
 # End-to-End-NLP-Project | Chatbot-using-Dialogflow
 ## This project is creating a chatbot using the Dialogflow platform.
-
+<img src="landing_page.png">
 ## Tools Required:
 ```
           HTML and CSS (Web page implementation)
