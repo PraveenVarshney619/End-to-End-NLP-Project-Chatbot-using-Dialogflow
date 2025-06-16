@@ -6,6 +6,8 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <!-- Dialogflow Messenger Script -->
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
   </head>
   <body>
     <div class="container">
@@ -18,8 +20,7 @@
       </header>
 
       <section id="home">
-        <img src="frontend/banner.jpg" />
-        <!-- Add images here -->
+        <img src="frontend/banner.jpg" alt="Banner Image" />
       </section>
 
       <section id="menu">
@@ -34,7 +35,6 @@
       <section id="location">
         <h2>Location</h2>
         <p>55 Katpadi Road, Vellore</p>
-        <!-- Add map widget here -->
       </section>
 
       <section id="contactus">
@@ -44,14 +44,14 @@
           email us at info@taramafastfood.com
         </p>
       </section>
-
-      <iframe
-        class="chat-bot"
-        width="350"
-        height="430"
-        allow="microphone;"
-        src="https://console.dialogflow.com/api-client/demo/embedded/e51ada30-1bc0-4598-a1d1-2fc83ba1b940"
-      ></iframe>
     </div>
+
+    <!-- Dialogflow Messenger Component -->
+    <df-messenger
+      intent="WELCOME"
+      chat-title="Jarves-Chatbot"
+      agent-id="e51ada30-1bc0-4598-a1d1-2fc83ba1b940"
+      language-code="en"
+    ></df-messenger>
   </body>
 </html>
