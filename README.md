@@ -2,6 +2,11 @@
 ## This project is creating a chatbot using the Dialogflow platform.
 <img src="landing_page.png">
 
+## 🚀 Deployed Link
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Website-blue?style=for-the-badge)](https://praveenvarshney619.github.io/End-to-End-NLP-Project-Chatbot-using-Dialogflow/)
+
+
+
 ## Tools Required:
 ```
           HTML and CSS (Web page implementation)
